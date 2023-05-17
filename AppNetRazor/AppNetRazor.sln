@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNetRazor", "AppNetRazor\AppNetRazor.csproj", "{98CDED7A-A3A9-4934-83F4-BBE91A9FDAFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98CDED7A-A3A9-4934-83F4-BBE91A9FDAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CDED7A-A3A9-4934-83F4-BBE91A9FDAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CDED7A-A3A9-4934-83F4-BBE91A9FDAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CDED7A-A3A9-4934-83F4-BBE91A9FDAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03002B6-74DB-4435-9960-99731141ADD8}
+	EndGlobalSection
+EndGlobal
