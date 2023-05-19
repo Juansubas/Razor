@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {}
+    "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {
+    "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
+        "projectUniqueName": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
         "projectName": "AppNetRazor",
-        "projectPath": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
+        "projectPath": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\obj\\",
+        "outputPath": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juans\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
