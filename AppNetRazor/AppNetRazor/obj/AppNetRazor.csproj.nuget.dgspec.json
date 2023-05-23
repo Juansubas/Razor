@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {}
+    "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {}
   },
   "projects": {
-    "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {
+    "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
         "projectName": "AppNetRazor",
-        "projectPath": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
+        "projectPath": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\obj\\",
+        "outputPath": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juans\\AppData\\Roaming\\NuGet\\NuGet.Config",

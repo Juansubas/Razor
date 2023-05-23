@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tUoLbv8xLEcJASSnNREQLxCGGSojCY77QbHC2yZR2fSobvA+vBa/rS+kijbL/U9wUW+FHJ+pEbHsv30zQyPkmQ==",
+  "dgSpecHash": "2Pnhmv32jd5w1qM360xmNmDoJK82L6sL2wdMHyPaTWhdIR4sOwEtwXGEgGf1296lDixvNyuNZPob6HpD8vjFRw==",
   "success": true,
-  "projectFilePath": "D:\\Programacion\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
+  "projectFilePath": "C:\\Users\\juans\\OneDrive\\Documentos\\Programacion\\csharp\\Razor\\AppNetRazor\\AppNetRazor\\AppNetRazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juans\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
