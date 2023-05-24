@@ -6,6 +6,13 @@
 
 <h3 class="text-center">Visita mi Repositorio en<a href="https://github.com/juansubas" target="_blank"> GitHub </a></h3>
 
+@if (Model.Mensaje is not null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @Model.Mensaje
+        <button type="button" class="btn-close" data-bs-dismiss="alert" arial-label="Close"></button>
+    </div>
+}
 <div class="card">
     <div class="card-header">
         <div class="row">

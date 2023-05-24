@@ -11,6 +11,9 @@ namespace AppNetRazor.Pages.Cursos
         private readonly ApplicationDbContext _contexto;
         public IEnumerable<Curso> Cursos { get; set; }
 
+        [TempData]
+        public string Mensaje { get; set; }
+
         public IndexModel(ApplicationDbContext contexto)
         {
             _contexto = contexto;
@@ -29,6 +32,7 @@ namespace AppNetRazor.Pages.Cursos
             _contexto.Curso.Remove(curso);
 
             await _contexto.SaveChangesAsync();
+            Mensaje = "Curso Eliminado Correctamente";
             return RedirectToPage("Index");
         }
     }

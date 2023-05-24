@@ -17,6 +17,9 @@ namespace AppNetRazor.Pages.Cursos
 
         [BindProperty]
         public Curso Curso { get; set; }
+
+        [TempData]
+        public string Mensaje { get; set; }
         public void OnGet()
         {
         }
@@ -33,6 +36,7 @@ namespace AppNetRazor.Pages.Cursos
             _contexto.Add(Curso);
 
             await _contexto.SaveChangesAsync();
+            Mensaje = "Curso Creado Correctamente";
             return RedirectToPage("Index");
         }
     }
