@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 //Configurar conexion a sql local db
-builder.Services.AddDbContext<ApplicacionDbContext>(options => options.UseSqlServer(
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("ConexionSQLLocalDB")));
 
 // Add services to the container.

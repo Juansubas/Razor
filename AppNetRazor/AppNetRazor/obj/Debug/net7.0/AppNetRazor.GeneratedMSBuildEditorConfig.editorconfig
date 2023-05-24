@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\juans\OneDrive\Documentos\Programacion\csharp\Razor\AppNetRazor\AppNetRazor
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/juans/OneDrive/Documentos/Programacion/csharp/Razor/AppNetRazor/AppNetRazor/Pages/Cursos/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juans/OneDrive/Documentos/Programacion/csharp/Razor/AppNetRazor/AppNetRazor/Pages/Cursos/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/juans/OneDrive/Documentos/Programacion/csharp/Razor/AppNetRazor/AppNetRazor/Pages/Cursos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

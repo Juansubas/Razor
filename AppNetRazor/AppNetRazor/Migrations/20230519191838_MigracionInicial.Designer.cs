@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AppNetRazor.Migrations
 {
-    [DbContext(typeof(ApplicacionDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20230519191838_MigracionInicial")]
     partial class MigracionInicial
     {

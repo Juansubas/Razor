@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppNetRazor.Datos
 {
-    public class ApplicacionDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicacionDbContext(DbContextOptions<ApplicacionDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
             
         }
