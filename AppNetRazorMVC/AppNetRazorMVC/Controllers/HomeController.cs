@@ -27,6 +27,7 @@ namespace AppNetRazorMVC.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Crear(Usuario usuario) 
         { 
             if(ModelState.IsValid)
@@ -36,6 +37,56 @@ namespace AppNetRazorMVC.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Editar(int? id)
+        {
+            if (id is null) return NotFound();
+
+            var usuario =  _context.Usuario.Find(id);
+
+            if (usuario is null) return NotFound();
+
+            return View(usuario);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Editar(Usuario usuario)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Usuario.Update(usuario);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+
+        [HttpGet]
+        public IActionResult Eliminar(int? id)
+        {
+            if (id is null) return NotFound();
+
+            var usuario = _context.Usuario.Find(id);
+
+            if (usuario is null) return NotFound();
+
+            return View(usuario);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Eliminar(Usuario usuario)
+        {
+            if (usuario is null) return NotFound();
+
+            _context.Usuario.Remove(usuario);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()
