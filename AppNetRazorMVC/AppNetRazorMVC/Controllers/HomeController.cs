@@ -34,6 +34,7 @@ namespace AppNetRazorMVC.Controllers
             {
                 _context.Usuario.Add(usuario);
                 await _context.SaveChangesAsync();
+                TempData["Mensaje"] = "El usuario se creo Correctamente";
                 return RedirectToAction("Index");
             }
             return View();
@@ -59,6 +60,7 @@ namespace AppNetRazorMVC.Controllers
             {
                 _context.Usuario.Update(usuario);
                 await _context.SaveChangesAsync();
+                TempData["Mensaje"] = "El usuario se Edito Correctamente";
                 return RedirectToAction("Index");
             }
             return View();
@@ -85,7 +87,7 @@ namespace AppNetRazorMVC.Controllers
 
             _context.Usuario.Remove(usuario);
             _context.SaveChanges();
-
+            TempData["Mensaje"] = "El usuario se elimino Correctamente";
             return RedirectToAction("Index");
         }
 

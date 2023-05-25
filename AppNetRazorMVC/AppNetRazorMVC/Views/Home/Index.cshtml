@@ -5,6 +5,14 @@
 
 <h1 class="text-center">Aplicacion NET 7 MVC</h1>
 
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
 <div class="row">
     <div class="col-sm-12">
         <div class="float-right">
